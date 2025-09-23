@@ -328,7 +328,7 @@ def _download_redistribution(
         archive = file_name,
         stripPrefix = strip_prefix,
     )
-    repository_ctx.delete(file_name)
+    # repository_ctx.delete(file_name)
 
 def _get_platform_architecture(repository_ctx):
     # buildifier: disable=function-docstring-return
